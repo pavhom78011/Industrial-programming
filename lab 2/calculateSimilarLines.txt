@@ -1,0 +1,5 @@
+number of strings in the maximum set of pairwise dissimilar strings: 4
+8 43 1 2 
+6 8 2 4 
+16 4 8 8 
+6 6 5 4 
