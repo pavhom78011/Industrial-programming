@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class factorial {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a number:");
@@ -14,8 +14,8 @@ public class Main {
     }
     static ArrayList<Integer> CalculateFactorials(int n) {
         ArrayList<Integer> factorials = new ArrayList<>();
-        factorials.add(1);
-        if (n == 0) {
+        factorials.add(1);//0!
+        if (n == 1) {
             return factorials;
         }
         for (int i = 1; i <= n - 1; ++i) {

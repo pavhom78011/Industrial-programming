@@ -1,24 +1,26 @@
 
 public class Info {
-    int num;
-    String name;
-    String email;
-    void setNum(int num) {
-        this.num = num;
-    }
-    int getNum() {
-        return num;
-    }
-    void setName(String name) {
+
+    private final int id;
+    private final String name;
+    private final int age;
+
+    public Info(int id, String name, int age) {
+        this.id = id;
         this.name = name;
+        this.age = age;
     }
-    String getName() {
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
         return name;
     }
-    void setEmail(String email) {
-        this.email = email;
+
+    public int getAge() {
+        return age;
     }
-    String getEmail() {
-        return email;
-    }
+
 }
