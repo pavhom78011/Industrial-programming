@@ -97,8 +97,15 @@ public class Main extends Application {
             @Override
             public void handle(ActionEvent actionEvent) {
                 if (!textName.getText().isEmpty() && !textAge.getText().isEmpty()) {
-                    String name = textName.getText();
-                    int age = Integer.parseInt(textAge.getText());
+                    String name = "";
+                    int age = 0;
+                    try {
+                        name = textName.getText();
+                        age = Integer.parseInt(textAge.getText());
+                    } catch (NumberFormatException e) {
+                        textAge.clear();
+                        return;
+                    }
                     try {
                         DatabaseOperations.insert(name, age);
                     } catch (SQLException e) {
