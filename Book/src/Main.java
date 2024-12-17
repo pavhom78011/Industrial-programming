@@ -16,6 +16,7 @@ public class Main {
         ReadSubject("subject6.txt", record_books);
         ReadSubject("subject7.txt", record_books);
         WriteInfo("output.txt", record_books);
+        WriteJson("output.txt");
     }
 
     public static void ReadSubject(String s, Vector<record_book> record_books) throws IOException {
@@ -75,6 +76,19 @@ public class Main {
                     writer.flush();
                 }
             }
+        }
+    }
+    
+    public static void WriteJson(String s) throws IOException {
+        FileReader fileReader = new FileReader(s);
+        BufferedReader reader = new BufferedReader(fileReader);
+        FileWriter fileWriter = new FileWriter("output.json");
+        BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+        while (reader.ready()) {
+            StringTokenizer tokenizer = new StringTokenizer(reader.readLine());
+            excellent_student a = new excellent_student(tokenizer.nextToken(), tokenizer.nextToken(), tokenizer.nextToken(), Integer.parseInt(tokenizer.nextToken()), Integer.parseInt(tokenizer.nextToken()), Integer.parseInt(tokenizer.nextToken()), tokenizer.nextToken(), Integer.parseInt(tokenizer.nextToken()));
+            bufferedWriter.write(a.toString() + '\n');
+            bufferedWriter.flush();
         }
     }
 }

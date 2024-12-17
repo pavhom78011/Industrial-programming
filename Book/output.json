@@ -1,0 +1,160 @@
+{
+  "surname" : "Smith",
+  "name" : "David",
+  "patronymic" : "Robertsson",
+  "course" : 1,
+  "group" : 5,
+  "semestr" : 2,
+  "subject" : "Maths",
+  "mark" : 9
+}
+{
+  "surname" : "Smith",
+  "name" : "David",
+  "patronymic" : "Robertsson",
+  "course" : 1,
+  "group" : 5,
+  "semestr" : 2,
+  "subject" : "Programming",
+  "mark" : 10
+}
+{
+  "surname" : "Brown",
+  "name" : "Jessica",
+  "patronymic" : "Williamsson",
+  "course" : 2,
+  "group" : 6,
+  "semestr" : 3,
+  "subject" : "Programming",
+  "mark" : 9
+}
+{
+  "surname" : "Brown",
+  "name" : "Jessica",
+  "patronymic" : "Williamsson",
+  "course" : 2,
+  "group" : 6,
+  "semestr" : 3,
+  "subject" : "Maths",
+  "mark" : 9
+}
+{
+  "surname" : "Anderson",
+  "name" : "Sarah",
+  "patronymic" : "Michaelson",
+  "course" : 2,
+  "group" : 5,
+  "semestr" : 3,
+  "subject" : "Programming",
+  "mark" : 10
+}
+{
+  "surname" : "Anderson",
+  "name" : "Sarah",
+  "patronymic" : "Michaelson",
+  "course" : 2,
+  "group" : 5,
+  "semestr" : 3,
+  "subject" : "Maths",
+  "mark" : 10
+}
+{
+  "surname" : "White",
+  "name" : "Charles",
+  "patronymic" : "Matthewson",
+  "course" : 1,
+  "group" : 6,
+  "semestr" : 1,
+  "subject" : "Maths",
+  "mark" : 9
+}
+{
+  "surname" : "White",
+  "name" : "Charles",
+  "patronymic" : "Matthewson",
+  "course" : 1,
+  "group" : 6,
+  "semestr" : 1,
+  "subject" : "Programming",
+  "mark" : 9
+}
+{
+  "surname" : "White",
+  "name" : "Charles",
+  "patronymic" : "Matthewson",
+  "course" : 1,
+  "group" : 6,
+  "semestr" : 1,
+  "subject" : "English",
+  "mark" : 9
+}
+{
+  "surname" : "White",
+  "name" : "Charles",
+  "patronymic" : "Matthewson",
+  "course" : 1,
+  "group" : 6,
+  "semestr" : 2,
+  "subject" : "Maths",
+  "mark" : 10
+}
+{
+  "surname" : "White",
+  "name" : "Charles",
+  "patronymic" : "Matthewson",
+  "course" : 1,
+  "group" : 6,
+  "semestr" : 2,
+  "subject" : "Programming",
+  "mark" : 9
+}
+{
+  "surname" : "Thomas",
+  "name" : "Matthew",
+  "patronymic" : "Matthewson",
+  "course" : 1,
+  "group" : 5,
+  "semestr" : 1,
+  "subject" : "Maths",
+  "mark" : 9
+}
+{
+  "surname" : "Thomas",
+  "name" : "Matthew",
+  "patronymic" : "Matthewson",
+  "course" : 1,
+  "group" : 5,
+  "semestr" : 1,
+  "subject" : "Programming",
+  "mark" : 9
+}
+{
+  "surname" : "Thomas",
+  "name" : "Matthew",
+  "patronymic" : "Matthewson",
+  "course" : 1,
+  "group" : 5,
+  "semestr" : 1,
+  "subject" : "English",
+  "mark" : 10
+}
+{
+  "surname" : "Thomas",
+  "name" : "Matthew",
+  "patronymic" : "Matthewson",
+  "course" : 1,
+  "group" : 5,
+  "semestr" : 2,
+  "subject" : "Maths",
+  "mark" : 10
+}
+{
+  "surname" : "Thomas",
+  "name" : "Matthew",
+  "patronymic" : "Matthewson",
+  "course" : 1,
+  "group" : 5,
+  "semestr" : 2,
+  "subject" : "Programming",
+  "mark" : 9
+}
