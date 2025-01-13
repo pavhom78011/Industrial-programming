@@ -8,7 +8,7 @@ import net.objecthunter.exp4j.ExpressionBuilder;
 
 public class LibraryCalculation {
     public static void ProcessExpressions(String inputText, StringBuffer resultString) throws Exception {
-        Pattern pattern = Pattern.compile("\\d+(\\s*[+\\-*/]\\s*\\d+)+");
+        Pattern pattern = Pattern.compile("(-?\\d+(\\.\\d+)?(\\s*[+\\-*/]\\s*-?\\d+(\\.\\d+)?)+)");
         Matcher matcher = pattern.matcher(inputText);
         while (matcher.find()) {
             String expression = matcher.group();
