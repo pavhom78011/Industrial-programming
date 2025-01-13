@@ -1,0 +1,5 @@
+first 5.5
+second 4
+third 12.892857142857142
+fourth 62.5
+fifth 6.95
